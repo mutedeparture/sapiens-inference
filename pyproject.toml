@@ -1,0 +1,20 @@
+[project]
+name = "sapiens-inference"
+version = "0.1.0"
+description = "Inference utilities for Meta sapiens
+authors = [
+    { name="Bahadir Arac" }
+]
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+
+[project.urls]
+Homepage = "https://github.com/mutedeparture/sapiens-inference"
+
+[tool.setuptools]
+packages = ["sapiens_inference"]
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
